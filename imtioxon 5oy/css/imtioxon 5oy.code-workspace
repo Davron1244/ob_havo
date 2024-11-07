@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"name": "imtioxon 5oy",
+			"path": ".."
+		},
+		{
+			"name": "Assets",
+			"path": "../../Sweeper game/Assets"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501,
+		"liveServer.settings.multiRootWorkspaceName": "imtioxon 5oy"
+	}
+}

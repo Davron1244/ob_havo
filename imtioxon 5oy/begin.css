@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: url(img/nature-scenes-er5t90arlxnmon8c.jpg);
+    background: url(img/588628_wallpapers-1920x1080-hd-nature-best-hd-desktop-wallpapers-1080p-hd_1920x1080_h.jpg);
+    background: url(img/wp2565111.jpg);
+    background: url(img/120902.jpg);
+    background: url(img/561110-landscape-nature.jpg);
+    background: url(img/38732015-full-hd-wallpapers.jpg);
+    transition: 0.5s;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+span {
+    position: relative;
+    left: 2000px;
+    top: 800px;
+    color: white;
+    font-size: 700px;
+    font-family: "Roboto";
+}
+
+.container2 h1 {
+    position: relative;
+    width: 1500px;
+    left: 1800px;
+    top: 750px;
+    color: white;
+    font-family: "Roboto";
+    font-size: 200px;
+}
+
+.selectable {
+    position: relative;
+    left: 3250px;
+    top: 525px;
+    font-family: "Roboto";
+    cursor: pointer;
+    transition: background-color 200ms linear;
+    font-size: 200px;   
+}
+
+[contentEditable] {
+    display: inline-block;
+}
+
+.selectable:hover {
+    background-color: rgba(255, 255, 255, 0.555);
+}
+
+.text {
+    color: white;
+    font-size: 120px;
+    margin-top: 750px;
+    margin-left: 1950px;
+    font-family: "Roboto";
+}
+
+input {
+    background: none;
+    margin-left: 1880px;
+    font-size: 100px;
+    border: none;
+}
+
+.input-container {
+    position: relative; 
+    margin: 50px;
+}
+
+.input-container input {
+    width: 30%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    border-bottom: 10px solid #ffffff;
+    outline: none;
+    font-size: 16px;
+}
+
+.input-container .underline {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #000;
+    transition: width 0.3s ease;
+}
+
+.input-container input {
+    font-size: 100px; /* Katta matn o'lchami */
+    color: #ffffff;
+}
+
+#randomText {
+    font-size: 100px;
+    font-family: Arial, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+a{
+    position: relative;
+    position: absolute;
+    left: 5700px;
+    top: 100px;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 40px;
+    width: 400px;
+}
